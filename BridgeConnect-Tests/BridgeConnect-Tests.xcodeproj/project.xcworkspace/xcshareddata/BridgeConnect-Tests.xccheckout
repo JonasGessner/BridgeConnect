@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6CE13D1A-2289-4F60-A6CA-B70D9A9D383A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BridgeConnect-Tests</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>ADA2CFE1-FE43-4774-909B-CD700D48A56D</key>
+		<string>https://github.com/JonasGessner/BridgeConnect.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BridgeConnect-Tests/BridgeConnect-Tests.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>ADA2CFE1-FE43-4774-909B-CD700D48A56D</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/JonasGessner/BridgeConnect.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>ADA2CFE1-FE43-4774-909B-CD700D48A56D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>ADA2CFE1-FE43-4774-909B-CD700D48A56D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BridgeConnect</string>
+		</dict>
+	</array>
+</dict>
+</plist>

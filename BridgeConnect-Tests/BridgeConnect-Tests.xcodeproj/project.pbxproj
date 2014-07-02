@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B26247F19644C8E00293D26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B26247E19644C8E00293D26 /* Foundation.framework */; };
+		6B26248119644C8E00293D26 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B26248019644C8E00293D26 /* CoreGraphics.framework */; };
+		6B26248319644C8E00293D26 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B26248219644C8E00293D26 /* UIKit.framework */; };
+		6B26248919644C8E00293D26 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B26248719644C8E00293D26 /* InfoPlist.strings */; };
+		6B26248B19644C8E00293D26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B26248A19644C8E00293D26 /* main.m */; };
+		6B26248F19644C8E00293D26 /* JGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B26248E19644C8E00293D26 /* JGAppDelegate.m */; };
+		6B26249119644C8E00293D26 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B26249019644C8E00293D26 /* Images.xcassets */; };
+		6B2624B019644C9900293D26 /* BridgeConnect.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B2624AF19644C9900293D26 /* BridgeConnect.m */; };
+		6B2624BC19644DC100293D26 /* Artist-Title (1)-Album.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6B2624B919644DC100293D26 /* Artist-Title (1)-Album.mp3 */; };
+		6B2624BD19644DC100293D26 /* Artist-Title (2)-Album.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6B2624BA19644DC100293D26 /* Artist-Title (2)-Album.mp3 */; };
+		6B2624BE19644DC100293D26 /* Artist-Title (3)-Album.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6B2624BB19644DC100293D26 /* Artist-Title (3)-Album.mp3 */; };
+		6B2624C01964689C00293D26 /* artwork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6B2624BF1964689C00293D26 /* artwork.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B26247B19644C8E00293D26 /* BridgeConnect-Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BridgeConnect-Tests.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B26247E19644C8E00293D26 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6B26248019644C8E00293D26 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6B26248219644C8E00293D26 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6B26248619644C8E00293D26 /* BridgeConnect-Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BridgeConnect-Tests-Info.plist"; sourceTree = "<group>"; };
+		6B26248819644C8E00293D26 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6B26248A19644C8E00293D26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6B26248C19644C8E00293D26 /* BridgeConnect-Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BridgeConnect-Tests-Prefix.pch"; sourceTree = "<group>"; };
+		6B26248D19644C8E00293D26 /* JGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JGAppDelegate.h; sourceTree = "<group>"; };
+		6B26248E19644C8E00293D26 /* JGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGAppDelegate.m; sourceTree = "<group>"; };
+		6B26249019644C8E00293D26 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6B26249719644C8E00293D26 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6B2624AE19644C9900293D26 /* BridgeConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeConnect.h; sourceTree = "<group>"; };
+		6B2624AF19644C9900293D26 /* BridgeConnect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridgeConnect.m; sourceTree = "<group>"; };
+		6B2624B919644DC100293D26 /* Artist-Title (1)-Album.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Artist-Title (1)-Album.mp3"; sourceTree = "<group>"; };
+		6B2624BA19644DC100293D26 /* Artist-Title (2)-Album.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Artist-Title (2)-Album.mp3"; sourceTree = "<group>"; };
+		6B2624BB19644DC100293D26 /* Artist-Title (3)-Album.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Artist-Title (3)-Album.mp3"; sourceTree = "<group>"; };
+		6B2624BF1964689C00293D26 /* artwork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = artwork.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B26247819644C8E00293D26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B26248119644C8E00293D26 /* CoreGraphics.framework in Frameworks */,
+				6B26248319644C8E00293D26 /* UIKit.framework in Frameworks */,
+				6B26247F19644C8E00293D26 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B26247219644C8E00293D26 = {
+			isa = PBXGroup;
+			children = (
+				6B26248419644C8E00293D26 /* BridgeConnect-Tests */,
+				6B26247D19644C8E00293D26 /* Frameworks */,
+				6B26247C19644C8E00293D26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B26247C19644C8E00293D26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B26247B19644C8E00293D26 /* BridgeConnect-Tests.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B26247D19644C8E00293D26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B26247E19644C8E00293D26 /* Foundation.framework */,
+				6B26248019644C8E00293D26 /* CoreGraphics.framework */,
+				6B26248219644C8E00293D26 /* UIKit.framework */,
+				6B26249719644C8E00293D26 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B26248419644C8E00293D26 /* BridgeConnect-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6B26248D19644C8E00293D26 /* JGAppDelegate.h */,
+				6B26248E19644C8E00293D26 /* JGAppDelegate.m */,
+				6B2624B919644DC100293D26 /* Artist-Title (1)-Album.mp3 */,
+				6B2624BA19644DC100293D26 /* Artist-Title (2)-Album.mp3 */,
+				6B2624BB19644DC100293D26 /* Artist-Title (3)-Album.mp3 */,
+				6B2624BF1964689C00293D26 /* artwork.jpg */,
+				6B2624AD19644C9900293D26 /* BridgeConnect */,
+				6B26249019644C8E00293D26 /* Images.xcassets */,
+				6B26248519644C8E00293D26 /* Supporting Files */,
+			);
+			path = "BridgeConnect-Tests";
+			sourceTree = "<group>";
+		};
+		6B26248519644C8E00293D26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B26248619644C8E00293D26 /* BridgeConnect-Tests-Info.plist */,
+				6B26248719644C8E00293D26 /* InfoPlist.strings */,
+				6B26248A19644C8E00293D26 /* main.m */,
+				6B26248C19644C8E00293D26 /* BridgeConnect-Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6B2624AD19644C9900293D26 /* BridgeConnect */ = {
+			isa = PBXGroup;
+			children = (
+				6B2624AE19644C9900293D26 /* BridgeConnect.h */,
+				6B2624AF19644C9900293D26 /* BridgeConnect.m */,
+			);
+			name = BridgeConnect;
+			path = ../../BridgeConnect;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B26247A19644C8E00293D26 /* BridgeConnect-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B2624A719644C8E00293D26 /* Build configuration list for PBXNativeTarget "BridgeConnect-Tests" */;
+			buildPhases = (
+				6B26247719644C8E00293D26 /* Sources */,
+				6B26247819644C8E00293D26 /* Frameworks */,
+				6B26247919644C8E00293D26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BridgeConnect-Tests";
+			productName = "BridgeConnect-Tests";
+			productReference = 6B26247B19644C8E00293D26 /* BridgeConnect-Tests.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B26247319644C8E00293D26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JG;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Jonas Gessner";
+			};
+			buildConfigurationList = 6B26247619644C8E00293D26 /* Build configuration list for PBXProject "BridgeConnect-Tests" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6B26247219644C8E00293D26;
+			productRefGroup = 6B26247C19644C8E00293D26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B26247A19644C8E00293D26 /* BridgeConnect-Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B26247919644C8E00293D26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B2624BE19644DC100293D26 /* Artist-Title (3)-Album.mp3 in Resources */,
+				6B26248919644C8E00293D26 /* InfoPlist.strings in Resources */,
+				6B2624C01964689C00293D26 /* artwork.jpg in Resources */,
+				6B2624BD19644DC100293D26 /* Artist-Title (2)-Album.mp3 in Resources */,
+				6B2624BC19644DC100293D26 /* Artist-Title (1)-Album.mp3 in Resources */,
+				6B26249119644C8E00293D26 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B26247719644C8E00293D26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B26248B19644C8E00293D26 /* main.m in Sources */,
+				6B26248F19644C8E00293D26 /* JGAppDelegate.m in Sources */,
+				6B2624B019644C9900293D26 /* BridgeConnect.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6B26248719644C8E00293D26 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B26248819644C8E00293D26 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B2624A519644C8E00293D26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B2624A619644C8E00293D26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B2624A819644C8E00293D26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BridgeConnect-Tests/BridgeConnect-Tests-Prefix.pch";
+				INFOPLIST_FILE = "BridgeConnect-Tests/BridgeConnect-Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6B2624A919644C8E00293D26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BridgeConnect-Tests/BridgeConnect-Tests-Prefix.pch";
+				INFOPLIST_FILE = "BridgeConnect-Tests/BridgeConnect-Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B26247619644C8E00293D26 /* Build configuration list for PBXProject "BridgeConnect-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B2624A519644C8E00293D26 /* Debug */,
+				6B2624A619644C8E00293D26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B2624A719644C8E00293D26 /* Build configuration list for PBXNativeTarget "BridgeConnect-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B2624A819644C8E00293D26 /* Debug */,
+				6B2624A919644C8E00293D26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B26247319644C8E00293D26 /* Project object */;
+}
