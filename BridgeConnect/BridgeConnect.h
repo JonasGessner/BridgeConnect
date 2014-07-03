@@ -45,11 +45,11 @@
 
 /**
  @param paths An array containing the local paths of the files to import.
- @param titles An array containing the titles for the files, in the same order as the paths. (Optional)
+ @param titles An array containing the titles for the files, in the same order as the paths. The length of the array must be equal to the length of the \c paths array. (Optional)
  @param artist The artist. (Optional)
  @param titles The album title. (Optional)
- @param titles The genre. (Optional)
- @param titles An album artwork image. (Optional)
+ @param genre The genre. (Optional)
+ @param artwork An album artwork image. (Optional)
  
  Import multiple files at once. These will be recognized as an audio only album. The user can however not specify an album title.
  
@@ -64,8 +64,8 @@
  @param title The title. (Optional)
  @param artist The artist. (Optional)
  @param titles The album title. (Optional)
- @param titles The genre. (Optional)
- @param titles An album artwork image. (Optional)
+ @param genre The genre. (Optional)
+ @param artwork An album artwork image. (Optional)
  
  Import a single file at once. The user will be able to specify the type of import (music, ringtone, podcast, video etc.).
  

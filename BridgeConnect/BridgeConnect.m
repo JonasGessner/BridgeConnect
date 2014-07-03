@@ -50,8 +50,10 @@
         return NO;
     }
     
-    if (!paths.count) {
-        return NO;
+    NSAssert(paths.count > 0, @"Empty paths array");
+    
+    if (titles.count) {
+        NSAssert(titles.count == paths.count, @"Length of title array (%i) does not match length of paths array (%i).", titles.count, paths.count);
     }
     
     NSMutableDictionary *final = [NSMutableDictionary dictionaryWithCapacity:2+(titles.count > 0)+(artist.length > 0)+(album.length > 0)+(genre.length > 0)+(artwork != nil)];
@@ -60,7 +62,7 @@
     final[kLibBridgeContentsKey] = (paths.count > 1 ? paths : paths.firstObject);
     
     if (titles.count) {
-        final[kLibBridgeTitlesKey] = titles;
+        final[kLibBridgeTitlesKey] = (paths.count > 1 ? titles : titles.firstObject);
     }
     
     if (artist.length) {
